@@ -1,0 +1,18 @@
+{
+  "name": "node-web-app",
+  "version": "1.0.0",
+  "description": "Node.js on Docker",
+  "author": "Ahmet Olgun <axmet.olgun@gmail.com>",
+  "repository" : {
+   "type" : "git",
+   "url" : "https://github.com/axmetolgun23/sandbox"
+  },
+  "license" : "MIT",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.16.1"
+  }
+}
